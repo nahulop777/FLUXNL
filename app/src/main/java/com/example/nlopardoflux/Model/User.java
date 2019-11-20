@@ -3,22 +3,19 @@ package com.example.nlopardoflux.Model;
 public class User {
 
     private String gender;
-    private Object name;
-    private Object location;
+    private Name name;
+    private Location location;
     private String email;
-    private Object login;
-    private Object dob;
+    private Login login;
+    private Dob dob;
     private Object registered;
     private String phone;
     private String cell;
     private Object id;
-    private Object picture;
+    private Picture picture;
     private String nat;
 
-    public User() {
-    }
-
-    public User(String gender, Object name, Object location, String email, Object login, Object dob, Object registered, String phone, String cell, Object id, Object picture, String nat) {
+    public User(String gender, Name name, Location location, String email, Login login, Dob dob, Object registered, String phone, String cell, Object id, Picture picture, String nat) {
         this.gender = gender;
         this.name = name;
         this.location = location;
@@ -33,6 +30,9 @@ public class User {
         this.nat = nat;
     }
 
+    public User() {
+    }
+
     public String getGender() {
         return gender;
     }
@@ -41,19 +41,19 @@ public class User {
         this.gender = gender;
     }
 
-    public Object getName() {
+    public Name getName() {
         return name;
     }
 
-    public void setName(Object name) {
+    public void setName(Name name) {
         this.name = name;
     }
 
-    public Object getLocation() {
+    public Location getLocation() {
         return location;
     }
 
-    public void setLocation(Object location) {
+    public void setLocation(Location location) {
         this.location = location;
     }
 
@@ -65,19 +65,19 @@ public class User {
         this.email = email;
     }
 
-    public Object getLogin() {
+    public Login getLogin() {
         return login;
     }
 
-    public void setLogin(Object login) {
+    public void setLogin(Login login) {
         this.login = login;
     }
 
-    public Object getDob() {
+    public Dob getDob() {
         return dob;
     }
 
-    public void setDob(Object dob) {
+    public void setDob(Dob dob) {
         this.dob = dob;
     }
 
@@ -113,11 +113,11 @@ public class User {
         this.id = id;
     }
 
-    public Object getPicture() {
+    public Picture getPicture() {
         return picture;
     }
 
-    public void setPicture(Object picture) {
+    public void setPicture(Picture picture) {
         this.picture = picture;
     }
 
@@ -129,3 +129,8 @@ public class User {
         this.nat = nat;
     }
 }
+
+
+
+
+

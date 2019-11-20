@@ -10,4 +10,9 @@ public interface Service {
     @GET ("?results=20")
     Call<UserContainer> getUser();
 
+
+
+
+
+
 }

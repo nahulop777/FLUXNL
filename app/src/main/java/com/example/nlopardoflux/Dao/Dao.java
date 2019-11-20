@@ -1,5 +1,6 @@
 package com.example.nlopardoflux.Dao;
 
+import com.example.nlopardoflux.Model.User;
 import com.example.nlopardoflux.Model.UserContainer;
 import com.example.nlopardoflux.Service.Service;
 import com.example.nlopardoflux.utils.ResultListener;
@@ -37,6 +38,7 @@ public class Dao {
                 containerResultListener.finish(userContainer);
 
             }
+
 
             @Override
             public void onFailure(Call<UserContainer> call, Throwable t) {

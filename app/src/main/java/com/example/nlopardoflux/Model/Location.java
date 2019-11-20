@@ -1,11 +1,11 @@
 package com.example.nlopardoflux.Model;
 
-public class location {
+public class Location {
 
-    private Object street;
+    private Street street;
     private String city;
     private String state;
     private String country;
     private String postcode;
-    private Object coordinates;
+    private Coordinates coordinates;
 }

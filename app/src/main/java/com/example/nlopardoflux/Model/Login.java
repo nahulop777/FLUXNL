@@ -1,6 +1,6 @@
 package com.example.nlopardoflux.Model;
 
-public class login {
+public class Login {
 
     private String uuid;
     private String username;

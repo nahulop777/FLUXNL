@@ -1,6 +1,6 @@
 package com.example.nlopardoflux.Model;
 
-public class dob {
+public class Dob {
 
     private String date;
     private String age;
